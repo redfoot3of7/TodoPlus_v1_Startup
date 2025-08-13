@@ -1,0 +1,1277 @@
+Folder PATH listing for volume One Touch
+Volume serial number is 6129-94E9
+E:.
+|   build.gradle.kts
+|   .gitignore
+|   settings.gradle.kts
+|   gradle.properties
+|   local.properties
+|   gradlew
+|   gradlew.bat
+|   java_pid4856.hprof
+|   java_pid8340.hprof
+|   cd
+|   tree
+|   tree_output.txt
+|   
++---.idea
+|       workspace.xml
+|       codeStyles
+|       misc.xml
+|       AndroidProjectSystem.xml
+|       compiler.xml
+|       gradle.xml
+|       migrations.xml
+|       runConfigurations.xml
+|       .gitignore
+|       deploymentTargetSelector.xml
+|       .name
+|       
++---gradle
+|   |   libs.versions.toml
+|   |   
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|           
++---app
+|   |   build.gradle.kts
+|   |   .gitignore
+|   |   proguard-rules.pro
+|   |   
+|   +---src
+|   |   +---main
+|   |   |   |   AndroidManifest.xml
+|   |   |   |   
+|   |   |   +---java
+|   |   |   |   \---com
+|   |   |   |       \---drware
+|   |   |   |           \---todoplus
+|   |   |   |               \---v1
+|   |   |   |                   \---startup
+|   |   |   |                       |   MainActivity.kt
+|   |   |   |                       |   
+|   |   |   |                       +---ui
+|   |   |   |                       |   |   TodoList.kt
+|   |   |   |                       |   |   TodoItem.kt
+|   |   |   |                       |   |   TodoItemRow.kt
+|   |   |   |                       |   |   BiometricAuthDialog.kt
+|   |   |   |                       |   |   PinCodeScreen.kt
+|   |   |   |                       |   |   EditableSpinner.kt
+|   |   |   |                       |   |   TodoApp.kt
+|   |   |   |                       |   |   
+|   |   |   |                       |   +---theme
+|   |   |   |                       |   |       Color.kt
+|   |   |   |                       |   |       Theme.kt
+|   |   |   |                       |   |       Typography.kt
+|   |   |   |                       |   |       
+|   |   |   |                       |   +---screens
+|   |   |   |                       |   |       TodoMainScreen.kt
+|   |   |   |                       |   |       AppWithBiometricAuth.kt
+|   |   |   |                       |   |       HelpScreen.kt
+|   |   |   |                       |   |       
+|   |   |   |                       |   +---components
+|   |   |   |                       |   |       DatePickerDialog.kt
+|   |   |   |                       |   |       TodoItem.kt
+|   |   |   |                       |   |       TodoInputDialog.kt
+|   |   |   |                       |   |       SortDropdown.kt
+|   |   |   |                       |   |       
+|   |   |   |                       |   \---navigation
+|   |   |   |                       |           Navigation.kt
+|   |   |   |                       |           TodoNavHost.kt
+|   |   |   |                       |           
+|   |   |   |                       +---model
+|   |   |   |                       +---viewmodel
+|   |   |   |                       |       TodoViewModel.kt
+|   |   |   |                       |       TodoViewModelFactory.kt
+|   |   |   |                       |       
+|   |   |   |                       +---util
+|   |   |   |                       |       SortOption.kt
+|   |   |   |                       |       PersistenceHelper.kt
+|   |   |   |                       |       BiometricHelper.kt
+|   |   |   |                       |       BiometricUtils.kt
+|   |   |   |                       |       
+|   |   |   |                       +---data
+|   |   |   |                       |       Todo.kt
+|   |   |   |                       |       
+|   |   |   |                       \---reminder
+|   |   |   +---res
+|   |   |   |   +---mipmap-hdpi
+|   |   |   |   |       ic_launcher.webp
+|   |   |   |   |       ic_launcher_round.webp
+|   |   |   |   |       
+|   |   |   |   +---mipmap-mdpi
+|   |   |   |   |       ic_launcher.webp
+|   |   |   |   |       ic_launcher_round.webp
+|   |   |   |   |       
+|   |   |   |   +---mipmap-xhdpi
+|   |   |   |   |       ic_launcher.webp
+|   |   |   |   |       ic_launcher_round.webp
+|   |   |   |   |       
+|   |   |   |   +---mipmap-xxhdpi
+|   |   |   |   |       ic_launcher.webp
+|   |   |   |   |       ic_launcher_round.webp
+|   |   |   |   |       
+|   |   |   |   +---mipmap-xxxhdpi
+|   |   |   |   |       ic_launcher.webp
+|   |   |   |   |       ic_launcher_round.webp
+|   |   |   |   |       
+|   |   |   |   +---mipmap-anydpi-v26
+|   |   |   |   |       ic_launcher.xml
+|   |   |   |   |       ic_launcher_round.xml
+|   |   |   |   |       
+|   |   |   |   +---drawable
+|   |   |   |   |       ic_launcher_background.xml
+|   |   |   |   |       ic_launcher_foreground.xml
+|   |   |   |   |       
+|   |   |   |   +---values
+|   |   |   |   |       strings.xml
+|   |   |   |   |       colors.xml
+|   |   |   |   |       themes.xml
+|   |   |   |   |       
+|   |   |   |   \---xml
+|   |   |   |           backup_rules.xml
+|   |   |   |           data_extraction_rules.xml
+|   |   |   |           
+|   |   |   \---assets
+|   |   |       |   help.html
+|   |   |       |   
+|   |   |       \---images
+|   |   +---test
+|   |   |   \---java
+|   |   |       \---com
+|   |   |           \---drware
+|   |   |               \---todoplus
+|   |   |                   \---v1
+|   |   |                       \---startup
+|   |   |                               ExampleUnitTest.kt
+|   |   |                               
+|   |   \---androidTest
+|   |       \---java
+|   |           \---com
+|   |               \---drware
+|   |                   \---todoplus
+|   |                       \---v1
+|   |                           \---startup
+|   |                                   ExampleInstrumentedTest.kt
+|   |                                   
+|   \---build
+|       +---intermediates
+|       |   +---aar_metadata_check
+|       |   |   \---debug
+|       |   |       \---checkDebugAarMetadata
+|       |   +---source_set_path_map
+|       |   |   \---debug
+|       |   |       \---mapDebugSourceSetPaths
+|       |   |               file-map.txt
+|       |   |               
+|       |   +---nested_resources_validation_report
+|       |   |   \---debug
+|       |   |       \---generateDebugResources
+|       |   |               nestedResourcesValidationReport.txt
+|       |   |               
+|       |   +---merged_res_blame_folder
+|       |   |   \---debug
+|       |   |       \---mergeDebugResources
+|       |   |           \---out
+|       |   |               +---multi-v2
+|       |   |               |       values-pl.json
+|       |   |               |       values-sk.json
+|       |   |               |       values-zh-rCN.json
+|       |   |               |       values-ka.json
+|       |   |               |       values-large-v4.json
+|       |   |               |       values-land.json
+|       |   |               |       values-kn.json
+|       |   |               |       values-de.json
+|       |   |               |       values-be.json
+|       |   |               |       values-nl.json
+|       |   |               |       values-pt-rPT.json
+|       |   |               |       values-ar.json
+|       |   |               |       values-b+sr+Latn.json
+|       |   |               |       values-km.json
+|       |   |               |       values-sr.json
+|       |   |               |       mergeDebugResources.json
+|       |   |               |       values-sl.json
+|       |   |               |       values-kk.json
+|       |   |               |       values-af.json
+|       |   |               |       values-bs.json
+|       |   |               |       values.json
+|       |   |               |       values-v17.json
+|       |   |               |       values-xlarge-v4.json
+|       |   |               |       values-vi.json
+|       |   |               |       values-ru.json
+|       |   |               |       values-my.json
+|       |   |               |       values-lt.json
+|       |   |               |       values-v21.json
+|       |   |               |       values-it.json
+|       |   |               |       values-night-v8.json
+|       |   |               |       values-is.json
+|       |   |               |       values-te.json
+|       |   |               |       values-fr.json
+|       |   |               |       values-fa.json
+|       |   |               |       values-v22.json
+|       |   |               |       values-or.json
+|       |   |               |       values-in.json
+|       |   |               |       values-hi.json
+|       |   |               |       values-hu.json
+|       |   |               |       values-eu.json
+|       |   |               |       values-port.json
+|       |   |               |       values-lv.json
+|       |   |               |       values-gl.json
+|       |   |               |       values-el.json
+|       |   |               |       values-sq.json
+|       |   |               |       values-ro.json
+|       |   |               |       values-hy.json
+|       |   |               |       values-v16.json
+|       |   |               |       values-en-rAU.json
+|       |   |               |       values-zu.json
+|       |   |               |       values-v23.json
+|       |   |               |       values-as.json
+|       |   |               |       values-gu.json
+|       |   |               |       values-watch-v20.json
+|       |   |               |       values-v24.json
+|       |   |               |       values-zh-rHK.json
+|       |   |               |       values-mr.json
+|       |   |               |       values-pa.json
+|       |   |               |       values-es-rUS.json
+|       |   |               |       values-az.json
+|       |   |               |       values-ldltr-v21.json
+|       |   |               |       values-zh-rTW.json
+|       |   |               |       values-ky.json
+|       |   |               |       values-ca.json
+|       |   |               |       values-hdpi-v4.json
+|       |   |               |       values-ur.json
+|       |   |               |       values-et.json
+|       |   |               |       values-pt.json
+|       |   |               |       values-h720dp-v13.json
+|       |   |               |       values-ja.json
+|       |   |               |       values-watch-v21.json
+|       |   |               |       values-v25.json
+|       |   |               |       values-th.json
+|       |   |               |       values-en-rXC.json
+|       |   |               |       values-sw600dp-v13.json
+|       |   |               |       values-cs.json
+|       |   |               |       values-hr.json
+|       |   |               |       values-ko.json
+|       |   |               |       values-ml.json
+|       |   |               |       values-bn.json
+|       |   |               |       values-iw.json
+|       |   |               |       values-v18.json
+|       |   |               |       values-sv.json
+|       |   |               |       values-en-rGB.json
+|       |   |               |       values-pt-rBR.json
+|       |   |               |       values-ta.json
+|       |   |               |       values-da.json
+|       |   |               |       values-v26.json
+|       |   |               |       values-tl.json
+|       |   |               |       values-ms.json
+|       |   |               |       values-mk.json
+|       |   |               |       values-uz.json
+|       |   |               |       values-tr.json
+|       |   |               |       values-en-rCA.json
+|       |   |               |       values-nb.json
+|       |   |               |       values-ne.json
+|       |   |               |       values-en-rIN.json
+|       |   |               |       values-v28.json
+|       |   |               |       values-es.json
+|       |   |               |       values-lo.json
+|       |   |               |       values-fi.json
+|       |   |               |       values-fr-rCA.json
+|       |   |               |       values-mn.json
+|       |   |               |       values-bg.json
+|       |   |               |       values-sw.json
+|       |   |               |       values-si.json
+|       |   |               |       values-am.json
+|       |   |               |       values-uk.json
+|       |   |               |       
+|       |   |               \---single
+|       |   |                       mergeDebugResources.json
+|       |   |                       
+|       |   +---data_binding_layout_info_type_merge
+|       |   |   \---debug
+|       |   |       \---mergeDebugResources
+|       |   |           \---out
+|       |   +---incremental
+|       |   |   +---debug
+|       |   |   |   +---mergeDebugResources
+|       |   |   |   |   |   compile-file-map.properties
+|       |   |   |   |   |   merger.xml
+|       |   |   |   |   |   
+|       |   |   |   |   +---merged.dir
+|       |   |   |   |   |   +---values
+|       |   |   |   |   |   |       values.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-hi
+|       |   |   |   |   |   |       values-hi.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-pt
+|       |   |   |   |   |   |       values-pt.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-watch-v21
+|       |   |   |   |   |   |       values-watch-v21.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-watch-v20
+|       |   |   |   |   |   |       values-watch-v20.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-hr
+|       |   |   |   |   |   |       values-hr.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-hu
+|       |   |   |   |   |   |       values-hu.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-hy
+|       |   |   |   |   |   |       values-hy.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v16
+|       |   |   |   |   |   |       values-v16.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v18
+|       |   |   |   |   |   |       values-v18.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v17
+|       |   |   |   |   |   |       values-v17.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ldltr-v21
+|       |   |   |   |   |   |       values-ldltr-v21.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-af
+|       |   |   |   |   |   |       values-af.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-in
+|       |   |   |   |   |   |       values-in.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-zh-rHK
+|       |   |   |   |   |   |       values-zh-rHK.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-is
+|       |   |   |   |   |   |       values-is.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-it
+|       |   |   |   |   |   |       values-it.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-am
+|       |   |   |   |   |   |       values-am.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-iw
+|       |   |   |   |   |   |       values-iw.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-b+sr+Latn
+|       |   |   |   |   |   |       values-b+sr+Latn.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ar
+|       |   |   |   |   |   |       values-ar.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-as
+|       |   |   |   |   |   |       values-as.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v21
+|       |   |   |   |   |   |       values-v21.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-es-rUS
+|       |   |   |   |   |   |       values-es-rUS.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v23
+|       |   |   |   |   |   |       values-v23.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ja
+|       |   |   |   |   |   |       values-ja.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v22
+|       |   |   |   |   |   |       values-v22.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v25
+|       |   |   |   |   |   |       values-v25.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-az
+|       |   |   |   |   |   |       values-az.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v24
+|       |   |   |   |   |   |       values-v24.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-pt-rPT
+|       |   |   |   |   |   |       values-pt-rPT.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-zu
+|       |   |   |   |   |   |       values-zu.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v26
+|       |   |   |   |   |   |       values-v26.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ro
+|       |   |   |   |   |   |       values-ro.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-v28
+|       |   |   |   |   |   |       values-v28.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sw600dp-v13
+|       |   |   |   |   |   |       values-sw600dp-v13.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-be
+|       |   |   |   |   |   |       values-be.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ru
+|       |   |   |   |   |   |       values-ru.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-bg
+|       |   |   |   |   |   |       values-bg.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-bn
+|       |   |   |   |   |   |       values-bn.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-bs
+|       |   |   |   |   |   |       values-bs.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-en-rCA
+|       |   |   |   |   |   |       values-en-rCA.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ka
+|       |   |   |   |   |   |       values-ka.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-si
+|       |   |   |   |   |   |       values-si.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sk
+|       |   |   |   |   |   |       values-sk.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sl
+|       |   |   |   |   |   |       values-sl.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sq
+|       |   |   |   |   |   |       values-sq.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ca
+|       |   |   |   |   |   |       values-ca.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sr
+|       |   |   |   |   |   |       values-sr.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-kk
+|       |   |   |   |   |   |       values-kk.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-km
+|       |   |   |   |   |   |       values-km.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-kn
+|       |   |   |   |   |   |       values-kn.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sv
+|       |   |   |   |   |   |       values-sv.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ko
+|       |   |   |   |   |   |       values-ko.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-sw
+|       |   |   |   |   |   |       values-sw.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ta
+|       |   |   |   |   |   |       values-ta.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ky
+|       |   |   |   |   |   |       values-ky.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-pt-rBR
+|       |   |   |   |   |   |       values-pt-rBR.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-cs
+|       |   |   |   |   |   |       values-cs.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-h720dp-v13
+|       |   |   |   |   |   |       values-h720dp-v13.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-te
+|       |   |   |   |   |   |       values-te.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-th
+|       |   |   |   |   |   |       values-th.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-tl
+|       |   |   |   |   |   |       values-tl.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-xlarge-v4
+|       |   |   |   |   |   |       values-xlarge-v4.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-da
+|       |   |   |   |   |   |       values-da.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-tr
+|       |   |   |   |   |   |       values-tr.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-en-rAU
+|       |   |   |   |   |   |       values-en-rAU.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-de
+|       |   |   |   |   |   |       values-de.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-lo
+|       |   |   |   |   |   |       values-lo.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-lt
+|       |   |   |   |   |   |       values-lt.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-lv
+|       |   |   |   |   |   |       values-lv.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-en-rIN
+|       |   |   |   |   |   |       values-en-rIN.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-uk
+|       |   |   |   |   |   |       values-uk.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ur
+|       |   |   |   |   |   |       values-ur.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-mk
+|       |   |   |   |   |   |       values-mk.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ml
+|       |   |   |   |   |   |       values-ml.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-mn
+|       |   |   |   |   |   |       values-mn.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-uz
+|       |   |   |   |   |   |       values-uz.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-mr
+|       |   |   |   |   |   |       values-mr.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-fr-rCA
+|       |   |   |   |   |   |       values-fr-rCA.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ms
+|       |   |   |   |   |   |       values-ms.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-el
+|       |   |   |   |   |   |       values-el.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-zh-rTW
+|       |   |   |   |   |   |       values-zh-rTW.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-my
+|       |   |   |   |   |   |       values-my.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-es
+|       |   |   |   |   |   |       values-es.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-et
+|       |   |   |   |   |   |       values-et.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-eu
+|       |   |   |   |   |   |       values-eu.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-vi
+|       |   |   |   |   |   |       values-vi.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-nb
+|       |   |   |   |   |   |       values-nb.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-port
+|       |   |   |   |   |   |       values-port.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-night-v8
+|       |   |   |   |   |   |       values-night-v8.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-ne
+|       |   |   |   |   |   |       values-ne.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-fa
+|       |   |   |   |   |   |       values-fa.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-nl
+|       |   |   |   |   |   |       values-nl.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-zh-rCN
+|       |   |   |   |   |   |       values-zh-rCN.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-fi
+|       |   |   |   |   |   |       values-fi.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-en-rXC
+|       |   |   |   |   |   |       values-en-rXC.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-fr
+|       |   |   |   |   |   |       values-fr.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-large-v4
+|       |   |   |   |   |   |       values-large-v4.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-hdpi-v4
+|       |   |   |   |   |   |       values-hdpi-v4.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-en-rGB
+|       |   |   |   |   |   |       values-en-rGB.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-land
+|       |   |   |   |   |   |       values-land.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-or
+|       |   |   |   |   |   |       values-or.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-gl
+|       |   |   |   |   |   |       values-gl.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-gu
+|       |   |   |   |   |   |       values-gu.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   +---values-pa
+|       |   |   |   |   |   |       values-pa.xml
+|       |   |   |   |   |   |       
+|       |   |   |   |   |   \---values-pl
+|       |   |   |   |   |           values-pl.xml
+|       |   |   |   |   |           
+|       |   |   |   |   \---stripped.dir
+|       |   |   |   \---packageDebugResources
+|       |   |   |       |   compile-file-map.properties
+|       |   |   |       |   merger.xml
+|       |   |   |       |   
+|       |   |   |       +---merged.dir
+|       |   |   |       |   \---values
+|       |   |   |       |           values.xml
+|       |   |   |       |           
+|       |   |   |       \---stripped.dir
+|       |   |   +---mergeDebugShaders
+|       |   |   |       merger.xml
+|       |   |   |       
+|       |   |   +---mergeDebugAssets
+|       |   |   |       merger.xml
+|       |   |   |       
+|       |   |   \---mergeDebugJniLibFolders
+|       |   |           merger.xml
+|       |   |           
+|       |   +---merged_res
+|       |   |   \---debug
+|       |   |       \---mergeDebugResources
+|       |   |               values-hi_values-hi.arsc.flat
+|       |   |               values-watch-v21_values-watch-v21.arsc.flat
+|       |   |               values-pt_values-pt.arsc.flat
+|       |   |               values-v18_values-v18.arsc.flat
+|       |   |               values-watch-v20_values-watch-v20.arsc.flat
+|       |   |               values-hu_values-hu.arsc.flat
+|       |   |               values-hy_values-hy.arsc.flat
+|       |   |               values_values.arsc.flat
+|       |   |               values-hr_values-hr.arsc.flat
+|       |   |               values-ldltr-v21_values-ldltr-v21.arsc.flat
+|       |   |               values-v17_values-v17.arsc.flat
+|       |   |               values-v16_values-v16.arsc.flat
+|       |   |               values-in_values-in.arsc.flat
+|       |   |               values-is_values-is.arsc.flat
+|       |   |               values-af_values-af.arsc.flat
+|       |   |               values-am_values-am.arsc.flat
+|       |   |               values-zh-rHK_values-zh-rHK.arsc.flat
+|       |   |               values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+|       |   |               values-iw_values-iw.arsc.flat
+|       |   |               values-as_values-as.arsc.flat
+|       |   |               values-es-rUS_values-es-rUS.arsc.flat
+|       |   |               values-ar_values-ar.arsc.flat
+|       |   |               values-it_values-it.arsc.flat
+|       |   |               values-ja_values-ja.arsc.flat
+|       |   |               values-v21_values-v21.arsc.flat
+|       |   |               values-v25_values-v25.arsc.flat
+|       |   |               values-v22_values-v22.arsc.flat
+|       |   |               values-v24_values-v24.arsc.flat
+|       |   |               values-v23_values-v23.arsc.flat
+|       |   |               values-ro_values-ro.arsc.flat
+|       |   |               values-zu_values-zu.arsc.flat
+|       |   |               values-az_values-az.arsc.flat
+|       |   |               values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+|       |   |               values-v28_values-v28.arsc.flat
+|       |   |               values-pt-rPT_values-pt-rPT.arsc.flat
+|       |   |               values-v26_values-v26.arsc.flat
+|       |   |               values-bn_values-bn.arsc.flat
+|       |   |               values-be_values-be.arsc.flat
+|       |   |               values-ru_values-ru.arsc.flat
+|       |   |               values-si_values-si.arsc.flat
+|       |   |               values-ka_values-ka.arsc.flat
+|       |   |               values-en-rCA_values-en-rCA.arsc.flat
+|       |   |               values-bg_values-bg.arsc.flat
+|       |   |               values-bs_values-bs.arsc.flat
+|       |   |               values-sl_values-sl.arsc.flat
+|       |   |               values-ca_values-ca.arsc.flat
+|       |   |               values-sk_values-sk.arsc.flat
+|       |   |               values-sq_values-sq.arsc.flat
+|       |   |               values-kn_values-kn.arsc.flat
+|       |   |               values-km_values-km.arsc.flat
+|       |   |               values-kk_values-kk.arsc.flat
+|       |   |               values-sr_values-sr.arsc.flat
+|       |   |               values-ta_values-ta.arsc.flat
+|       |   |               values-ko_values-ko.arsc.flat
+|       |   |               values-sv_values-sv.arsc.flat
+|       |   |               values-h720dp-v13_values-h720dp-v13.arsc.flat
+|       |   |               values-cs_values-cs.arsc.flat
+|       |   |               values-sw_values-sw.arsc.flat
+|       |   |               values-pt-rBR_values-pt-rBR.arsc.flat
+|       |   |               values-xlarge-v4_values-xlarge-v4.arsc.flat
+|       |   |               values-th_values-th.arsc.flat
+|       |   |               values-ky_values-ky.arsc.flat
+|       |   |               values-te_values-te.arsc.flat
+|       |   |               values-en-rAU_values-en-rAU.arsc.flat
+|       |   |               values-de_values-de.arsc.flat
+|       |   |               values-tr_values-tr.arsc.flat
+|       |   |               values-tl_values-tl.arsc.flat
+|       |   |               values-en-rIN_values-en-rIN.arsc.flat
+|       |   |               values-lo_values-lo.arsc.flat
+|       |   |               values-lt_values-lt.arsc.flat
+|       |   |               values-da_values-da.arsc.flat
+|       |   |               values-mk_values-mk.arsc.flat
+|       |   |               values-ml_values-ml.arsc.flat
+|       |   |               values-ur_values-ur.arsc.flat
+|       |   |               values-lv_values-lv.arsc.flat
+|       |   |               values-mn_values-mn.arsc.flat
+|       |   |               values-fr-rCA_values-fr-rCA.arsc.flat
+|       |   |               values-uz_values-uz.arsc.flat
+|       |   |               values-uk_values-uk.arsc.flat
+|       |   |               values-el_values-el.arsc.flat
+|       |   |               values-mr_values-mr.arsc.flat
+|       |   |               values-zh-rTW_values-zh-rTW.arsc.flat
+|       |   |               values-my_values-my.arsc.flat
+|       |   |               values-es_values-es.arsc.flat
+|       |   |               values-ms_values-ms.arsc.flat
+|       |   |               values-et_values-et.arsc.flat
+|       |   |               values-vi_values-vi.arsc.flat
+|       |   |               values-port_values-port.arsc.flat
+|       |   |               values-night-v8_values-night-v8.arsc.flat
+|       |   |               values-eu_values-eu.arsc.flat
+|       |   |               values-ne_values-ne.arsc.flat
+|       |   |               values-nb_values-nb.arsc.flat
+|       |   |               values-nl_values-nl.arsc.flat
+|       |   |               values-fi_values-fi.arsc.flat
+|       |   |               values-fa_values-fa.arsc.flat
+|       |   |               values-hdpi-v4_values-hdpi-v4.arsc.flat
+|       |   |               values-large-v4_values-large-v4.arsc.flat
+|       |   |               values-fr_values-fr.arsc.flat
+|       |   |               values-zh-rCN_values-zh-rCN.arsc.flat
+|       |   |               values-land_values-land.arsc.flat
+|       |   |               values-en-rGB_values-en-rGB.arsc.flat
+|       |   |               values-gl_values-gl.arsc.flat
+|       |   |               values-en-rXC_values-en-rXC.arsc.flat
+|       |   |               mipmap-mdpi_ic_launcher.webp.flat
+|       |   |               values-pl_values-pl.arsc.flat
+|       |   |               values-or_values-or.arsc.flat
+|       |   |               values-pa_values-pa.arsc.flat
+|       |   |               mipmap-mdpi_ic_launcher_round.webp.flat
+|       |   |               drawable_ic_launcher_foreground.xml.flat
+|       |   |               drawable_ic_launcher_background.xml.flat
+|       |   |               mipmap-xxhdpi_ic_launcher.webp.flat
+|       |   |               values-gu_values-gu.arsc.flat
+|       |   |               xml_data_extraction_rules.xml.flat
+|       |   |               mipmap-anydpi-v26_ic_launcher_round.xml.flat
+|       |   |               mipmap-anydpi-v26_ic_launcher.xml.flat
+|       |   |               mipmap-xhdpi_ic_launcher_round.webp.flat
+|       |   |               mipmap-xhdpi_ic_launcher.webp.flat
+|       |   |               mipmap-hdpi_ic_launcher.webp.flat
+|       |   |               mipmap-xxxhdpi_ic_launcher_round.webp.flat
+|       |   |               mipmap-hdpi_ic_launcher_round.webp.flat
+|       |   |               mipmap-xxxhdpi_ic_launcher.webp.flat
+|       |   |               mipmap-xxhdpi_ic_launcher_round.webp.flat
+|       |   |               xml_backup_rules.xml.flat
+|       |   |               
+|       |   +---data_binding_layout_info_type_package
+|       |   |   \---debug
+|       |   |       \---packageDebugResources
+|       |   |           \---out
+|       |   +---packaged_res
+|       |   |   \---debug
+|       |   |       \---packageDebugResources
+|       |   |           +---values
+|       |   |           |       values.xml
+|       |   |           |       
+|       |   |           +---mipmap-xxhdpi-v4
+|       |   |           |       ic_launcher_round.webp
+|       |   |           |       ic_launcher.webp
+|       |   |           |       
+|       |   |           +---mipmap-hdpi-v4
+|       |   |           |       ic_launcher_round.webp
+|       |   |           |       ic_launcher.webp
+|       |   |           |       
+|       |   |           +---mipmap-xxxhdpi-v4
+|       |   |           |       ic_launcher_round.webp
+|       |   |           |       ic_launcher.webp
+|       |   |           |       
+|       |   |           +---mipmap-xhdpi-v4
+|       |   |           |       ic_launcher.webp
+|       |   |           |       ic_launcher_round.webp
+|       |   |           |       
+|       |   |           +---mipmap-mdpi-v4
+|       |   |           |       ic_launcher_round.webp
+|       |   |           |       ic_launcher.webp
+|       |   |           |       
+|       |   |           +---drawable
+|       |   |           |       ic_launcher_background.xml
+|       |   |           |       ic_launcher_foreground.xml
+|       |   |           |       
+|       |   |           +---xml
+|       |   |           |       backup_rules.xml
+|       |   |           |       data_extraction_rules.xml
+|       |   |           |       
+|       |   |           \---mipmap-anydpi-v26
+|       |   |                   ic_launcher.xml
+|       |   |                   ic_launcher_round.xml
+|       |   |                   
+|       |   +---local_only_symbol_list
+|       |   |   \---debug
+|       |   |       \---parseDebugLocalResources
+|       |   |               R-def.txt
+|       |   |               
+|       |   +---compatible_screen_manifest
+|       |   |   \---debug
+|       |   |       \---createDebugCompatibleScreenManifests
+|       |   |               output-metadata.json
+|       |   |               
+|       |   +---navigation_json
+|       |   |   \---debug
+|       |   |       \---extractDeepLinksDebug
+|       |   |               navigation.json
+|       |   |               
+|       |   +---manifest_merge_blame_file
+|       |   |   \---debug
+|       |   |       \---processDebugMainManifest
+|       |   |               manifest-merger-blame-debug-report.txt
+|       |   |               
+|       |   +---merged_manifest
+|       |   |   \---debug
+|       |   |       \---processDebugMainManifest
+|       |   |               AndroidManifest.xml
+|       |   |               
+|       |   +---merged_manifests
+|       |   |   \---debug
+|       |   |       \---processDebugManifest
+|       |   |               AndroidManifest.xml
+|       |   |               output-metadata.json
+|       |   |               
+|       |   +---packaged_manifests
+|       |   |   \---debug
+|       |   |       \---processDebugManifestForPackage
+|       |   |               AndroidManifest.xml
+|       |   |               output-metadata.json
+|       |   |               
+|       |   +---annotation_processor_list
+|       |   |   \---debug
+|       |   |       \---javaPreCompileDebug
+|       |   |               annotationProcessors.json
+|       |   |               
+|       |   +---merged_shaders
+|       |   |   \---debug
+|       |   |       \---mergeDebugShaders
+|       |   |           \---out
+|       |   +---assets
+|       |   |   \---debug
+|       |   |       \---mergeDebugAssets
+|       |   |               help.html
+|       |   |               
+|       |   +---compressed_assets
+|       |   |   \---debug
+|       |   |       \---compressDebugAssets
+|       |   |           \---out
+|       |   |               \---assets
+|       |   |                       help.html.jar
+|       |   |                       
+|       |   +---external_file_lib_dex_archives
+|       |   |   \---debug
+|       |   |       \---desugarDebugFileDependencies
+|       |   +---global_synthetics_file_lib
+|       |   |   \---debug
+|       |   |       \---desugarDebugFileDependencies
+|       |   +---duplicate_classes_check
+|       |   |   \---debug
+|       |   |       \---checkDebugDuplicateClasses
+|       |   +---merged_jni_libs
+|       |   |   \---debug
+|       |   |       \---mergeDebugJniLibFolders
+|       |   |           \---out
+|       |   +---dex
+|       |   |   \---debug
+|       |   |       +---mergeExtDexDebug
+|       |   |       |       classes2.dex
+|       |   |       |       classes.dex
+|       |   |       |       
+|       |   |       \---mergeLibDexDebug
+|       |   |           +---0
+|       |   |           +---1
+|       |   |           +---2
+|       |   |           +---3
+|       |   |           +---4
+|       |   |           +---5
+|       |   |           +---6
+|       |   |           +---7
+|       |   |           +---8
+|       |   |           +---9
+|       |   |           +---10
+|       |   |           +---11
+|       |   |           +---12
+|       |   |           +---13
+|       |   |           +---14
+|       |   |           \---15
+|       |   +---validate_signing_config
+|       |   |   \---debug
+|       |   |       \---validateSigningDebug
+|       |   +---app_metadata
+|       |   |   \---debug
+|       |   |       \---writeDebugAppMetadata
+|       |   |               app-metadata.properties
+|       |   |               
+|       |   +---signing_config_versions
+|       |   |   \---debug
+|       |   |       \---writeDebugSigningConfigVersions
+|       |   |               signing-config-versions.json
+|       |   |               
+|       |   +---compile_and_runtime_not_namespaced_r_class_jar
+|       |   |   \---debug
+|       |   |       \---processDebugResources
+|       |   |               R.jar
+|       |   |               
+|       |   +---linked_resources_binary_format
+|       |   |   \---debug
+|       |   |       \---processDebugResources
+|       |   |               linked-resources-binary-format-debug.ap_
+|       |   |               output-metadata.json
+|       |   |               
+|       |   +---stable_resource_ids_file
+|       |   |   \---debug
+|       |   |       \---processDebugResources
+|       |   |               stableIds.txt
+|       |   |               
+|       |   +---symbol_list_with_package_name
+|       |   |   \---debug
+|       |   |       \---processDebugResources
+|       |   |               package-aware-r.txt
+|       |   |               
+|       |   \---runtime_symbol_list
+|       |       \---debug
+|       |           \---processDebugResources
+|       |                   R.txt
+|       |                   
+|       +---generated
+|       |   +---res
+|       |   |   +---resValues
+|       |   |   |   \---debug
+|       |   |   \---pngs
+|       |   |       \---debug
+|       |   \---source
+|       |       +---kapt
+|       |       |   \---debug
+|       |       \---kaptKotlin
+|       |           \---debug
+|       +---outputs
+|       |   \---logs
+|       |           manifest-merger-debug-report.txt
+|       |           
+|       +---kotlin
+|       |   +---kaptGenerateStubsDebugKotlin
+|       |   |   +---classpath-snapshot
+|       |   |   |       shrunk-classpath-snapshot.bin
+|       |   |   |       
+|       |   |   +---cacheable
+|       |   |   |   |   last-build.bin
+|       |   |   |   |   
+|       |   |   |   \---caches-jvm
+|       |   |   |       +---inputs
+|       |   |   |       |       source-to-output.tab.len
+|       |   |   |       |       source-to-output.tab
+|       |   |   |       |       source-to-output.tab_i.len
+|       |   |   |       |       source-to-output.tab.keystream.len
+|       |   |   |       |       source-to-output.tab_i
+|       |   |   |       |       source-to-output.tab.values.at
+|       |   |   |       |       source-to-output.tab.keystream
+|       |   |   |       |       
+|       |   |   |       +---lookups
+|       |   |   |       |       file-to-id.tab.len
+|       |   |   |       |       file-to-id.tab
+|       |   |   |       |       file-to-id.tab_i.len
+|       |   |   |       |       file-to-id.tab.keystream.len
+|       |   |   |       |       file-to-id.tab_i
+|       |   |   |       |       id-to-file.tab.len
+|       |   |   |       |       id-to-file.tab
+|       |   |   |       |       id-to-file.tab_i.len
+|       |   |   |       |       id-to-file.tab.keystream.len
+|       |   |   |       |       id-to-file.tab_i
+|       |   |   |       |       lookups.tab.len
+|       |   |   |       |       lookups.tab
+|       |   |   |       |       lookups.tab_i.len
+|       |   |   |       |       lookups.tab.keystream.len
+|       |   |   |       |       lookups.tab_i
+|       |   |   |       |       lookups.tab.keystream
+|       |   |   |       |       counters.tab
+|       |   |   |       |       id-to-file.tab.values.at
+|       |   |   |       |       id-to-file.tab.keystream
+|       |   |   |       |       file-to-id.tab.values.at
+|       |   |   |       |       file-to-id.tab.keystream
+|       |   |   |       |       lookups.tab.values.at
+|       |   |   |       |       
+|       |   |   |       \---jvm
+|       |   |   |           \---kotlin
+|       |   |   |                   source-to-classes.tab.len
+|       |   |   |                   source-to-classes.tab
+|       |   |   |                   source-to-classes.tab_i.len
+|       |   |   |                   source-to-classes.tab.keystream.len
+|       |   |   |                   internal-name-to-source.tab.len
+|       |   |   |                   internal-name-to-source.tab
+|       |   |   |                   internal-name-to-source.tab_i.len
+|       |   |   |                   internal-name-to-source.tab.keystream.len
+|       |   |   |                   internal-name-to-source.tab_i
+|       |   |   |                   subtypes.tab.len
+|       |   |   |                   subtypes.tab
+|       |   |   |                   subtypes.tab_i.len
+|       |   |   |                   subtypes.tab.keystream.len
+|       |   |   |                   supertypes.tab.len
+|       |   |   |                   supertypes.tab
+|       |   |   |                   supertypes.tab_i.len
+|       |   |   |                   supertypes.tab.keystream.len
+|       |   |   |                   supertypes.tab_i
+|       |   |   |                   class-fq-name-to-source.tab.len
+|       |   |   |                   class-fq-name-to-source.tab
+|       |   |   |                   class-fq-name-to-source.tab_i.len
+|       |   |   |                   class-fq-name-to-source.tab.keystream.len
+|       |   |   |                   class-fq-name-to-source.tab_i
+|       |   |   |                   class-attributes.tab.len
+|       |   |   |                   class-attributes.tab
+|       |   |   |                   class-attributes.tab_i.len
+|       |   |   |                   class-attributes.tab.keystream.len
+|       |   |   |                   class-attributes.tab_i
+|       |   |   |                   proto.tab.len
+|       |   |   |                   proto.tab
+|       |   |   |                   proto.tab_i.len
+|       |   |   |                   proto.tab.keystream.len
+|       |   |   |                   proto.tab_i
+|       |   |   |                   package-parts.tab.len
+|       |   |   |                   package-parts.tab
+|       |   |   |                   package-parts.tab_i.len
+|       |   |   |                   package-parts.tab.keystream.len
+|       |   |   |                   package-parts.tab_i
+|       |   |   |                   constants.tab.len
+|       |   |   |                   constants.tab
+|       |   |   |                   constants.tab_i.len
+|       |   |   |                   constants.tab.keystream.len
+|       |   |   |                   constants.tab_i
+|       |   |   |                   class-attributes.tab.values.at
+|       |   |   |                   class-attributes.tab.keystream
+|       |   |   |                   subtypes.tab_i
+|       |   |   |                   subtypes.tab.values.at
+|       |   |   |                   subtypes.tab.keystream
+|       |   |   |                   supertypes.tab.values.at
+|       |   |   |                   supertypes.tab.keystream
+|       |   |   |                   class-fq-name-to-source.tab.values.at
+|       |   |   |                   class-fq-name-to-source.tab.keystream
+|       |   |   |                   source-to-classes.tab_i
+|       |   |   |                   source-to-classes.tab.values.at
+|       |   |   |                   source-to-classes.tab.keystream
+|       |   |   |                   proto.tab.values.at
+|       |   |   |                   proto.tab.keystream
+|       |   |   |                   constants.tab.values.at
+|       |   |   |                   constants.tab.keystream
+|       |   |   |                   package-parts.tab.values.at
+|       |   |   |                   package-parts.tab.keystream
+|       |   |   |                   internal-name-to-source.tab.values.at
+|       |   |   |                   internal-name-to-source.tab.keystream
+|       |   |   |                   
+|       |   |   \---local-state
+|       |   |           build-history.bin
+|       |   |           
+|       |   \---compileDebugKotlin
+|       |       +---classpath-snapshot
+|       |       +---cacheable
+|       |       |   |   dirty-sources.txt
+|       |       |   |   
+|       |       |   \---caches-jvm
+|       |       |       +---inputs
+|       |       |       +---lookups
+|       |       |       \---jvm
+|       |       \---local-state
+|       |               build-history.bin
+|       |               
+|       +---tmp
+|       |   +---kapt3
+|       |   |   +---incrementalData
+|       |   |   |   \---debug
+|       |   |   |       +---com
+|       |   |   |       |   \---drware
+|       |   |   |       |       \---todoplus
+|       |   |   |       |           \---v1
+|       |   |   |       |               \---startup
+|       |   |   |       |                   |   MainActivity.class
+|       |   |   |       |                   |   
+|       |   |   |       |                   +---model
+|       |   |   |       |                   |       Todo.class
+|       |   |   |       |                   |       
+|       |   |   |       |                   +---ui
+|       |   |   |       |                   |   |   BiometricAuthDialogKt.class
+|       |   |   |       |                   |   |   EditableSpinnerKt.class
+|       |   |   |       |                   |   |   HelpScreenKt.class
+|       |   |   |       |                   |   |   PinCodeScreenKt.class
+|       |   |   |       |                   |   |   TodoAppKt.class
+|       |   |   |       |                   |   |   TodoItemKt.class
+|       |   |   |       |                   |   |   TodoItemRowKt.class
+|       |   |   |       |                   |   |   
+|       |   |   |       |                   |   +---components
+|       |   |   |       |                   |   |       TodoListKt.class
+|       |   |   |       |                   |   |       DatePickerDialogKt.class
+|       |   |   |       |                   |   |       SortDropdownKt.class
+|       |   |   |       |                   |   |       TodoInputDialogKt.class
+|       |   |   |       |                   |   |       TodoItemKt.class
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   +---navigation
+|       |   |   |       |                   |   |       Routes.class
+|       |   |   |       |                   |   |       NavigationKt.class
+|       |   |   |       |                   |   |       TodoNavHostKt.class
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   +---screens
+|       |   |   |       |                   |   |       AppWithBiometricAuthKt.class
+|       |   |   |       |                   |   |       TodoMainScreenKt.class
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   \---theme
+|       |   |   |       |                   |           ColorKt.class
+|       |   |   |       |                   |           ThemeKt.class
+|       |   |   |       |                   |           TypographyKt.class
+|       |   |   |       |                   |           
+|       |   |   |       |                   +---util
+|       |   |   |       |                   |       BiometricHelper.class
+|       |   |   |       |                   |       BiometricUtilsKt.class
+|       |   |   |       |                   |       PersistenceHelper.class
+|       |   |   |       |                   |       SortOption.class
+|       |   |   |       |                   |       
+|       |   |   |       |                   \---viewmodel
+|       |   |   |       |                           TodoViewModel.class
+|       |   |   |       |                           TodoViewModelFactory.class
+|       |   |   |       |                           
+|       |   |   |       \---META-INF
+|       |   |   |               app_debug.kotlin_module
+|       |   |   |               
+|       |   |   +---stubs
+|       |   |   |   \---debug
+|       |   |   |       +---com
+|       |   |   |       |   \---drware
+|       |   |   |       |       \---todoplus
+|       |   |   |       |           \---v1
+|       |   |   |       |               \---startup
+|       |   |   |       |                   |   MainActivity.java
+|       |   |   |       |                   |   MainActivity.kapt_metadata
+|       |   |   |       |                   |   
+|       |   |   |       |                   +---model
+|       |   |   |       |                   |       Todo.java
+|       |   |   |       |                   |       Todo.kapt_metadata
+|       |   |   |       |                   |       
+|       |   |   |       |                   +---ui
+|       |   |   |       |                   |   |   BiometricAuthDialogKt.java
+|       |   |   |       |                   |   |   BiometricAuthDialogKt.kapt_metadata
+|       |   |   |       |                   |   |   EditableSpinnerKt.java
+|       |   |   |       |                   |   |   EditableSpinnerKt.kapt_metadata
+|       |   |   |       |                   |   |   HelpScreenKt.java
+|       |   |   |       |                   |   |   HelpScreenKt.kapt_metadata
+|       |   |   |       |                   |   |   PinCodeScreenKt.java
+|       |   |   |       |                   |   |   PinCodeScreenKt.kapt_metadata
+|       |   |   |       |                   |   |   TodoAppKt.java
+|       |   |   |       |                   |   |   TodoAppKt.kapt_metadata
+|       |   |   |       |                   |   |   TodoItemKt.java
+|       |   |   |       |                   |   |   TodoItemKt.kapt_metadata
+|       |   |   |       |                   |   |   TodoItemRowKt.java
+|       |   |   |       |                   |   |   TodoItemRowKt.kapt_metadata
+|       |   |   |       |                   |   |   
+|       |   |   |       |                   |   +---components
+|       |   |   |       |                   |   |       TodoListKt.java
+|       |   |   |       |                   |   |       TodoListKt.kapt_metadata
+|       |   |   |       |                   |   |       DatePickerDialogKt.java
+|       |   |   |       |                   |   |       DatePickerDialogKt.kapt_metadata
+|       |   |   |       |                   |   |       SortDropdownKt.java
+|       |   |   |       |                   |   |       SortDropdownKt.kapt_metadata
+|       |   |   |       |                   |   |       TodoInputDialogKt.java
+|       |   |   |       |                   |   |       TodoInputDialogKt.kapt_metadata
+|       |   |   |       |                   |   |       TodoItemKt.java
+|       |   |   |       |                   |   |       TodoItemKt.kapt_metadata
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   +---navigation
+|       |   |   |       |                   |   |       Routes.java
+|       |   |   |       |                   |   |       Routes.kapt_metadata
+|       |   |   |       |                   |   |       NavigationKt.java
+|       |   |   |       |                   |   |       NavigationKt.kapt_metadata
+|       |   |   |       |                   |   |       TodoNavHostKt.java
+|       |   |   |       |                   |   |       TodoNavHostKt.kapt_metadata
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   +---screens
+|       |   |   |       |                   |   |       AppWithBiometricAuthKt.java
+|       |   |   |       |                   |   |       AppWithBiometricAuthKt.kapt_metadata
+|       |   |   |       |                   |   |       TodoMainScreenKt.java
+|       |   |   |       |                   |   |       TodoMainScreenKt.kapt_metadata
+|       |   |   |       |                   |   |       
+|       |   |   |       |                   |   \---theme
+|       |   |   |       |                   |           ColorKt.java
+|       |   |   |       |                   |           ColorKt.kapt_metadata
+|       |   |   |       |                   |           ThemeKt.java
+|       |   |   |       |                   |           ThemeKt.kapt_metadata
+|       |   |   |       |                   |           TypographyKt.java
+|       |   |   |       |                   |           TypographyKt.kapt_metadata
+|       |   |   |       |                   |           
+|       |   |   |       |                   +---util
+|       |   |   |       |                   |       BiometricHelper.java
+|       |   |   |       |                   |       BiometricHelper.kapt_metadata
+|       |   |   |       |                   |       BiometricUtilsKt.java
+|       |   |   |       |                   |       BiometricUtilsKt.kapt_metadata
+|       |   |   |       |                   |       PersistenceHelper.java
+|       |   |   |       |                   |       PersistenceHelper.kapt_metadata
+|       |   |   |       |                   |       SortOption.java
+|       |   |   |       |                   |       SortOption.kapt_metadata
+|       |   |   |       |                   |       
+|       |   |   |       |                   \---viewmodel
+|       |   |   |       |                           TodoViewModel.java
+|       |   |   |       |                           TodoViewModel.kapt_metadata
+|       |   |   |       |                           TodoViewModelFactory.java
+|       |   |   |       |                           TodoViewModelFactory.kapt_metadata
+|       |   |   |       |                           
+|       |   |   |       \---error
+|       |   |   |               NonExistentClass.java
+|       |   |   |               
+|       |   |   +---classes
+|       |   |   |   \---debug
+|       |   |   \---incApCache
+|       |   |       \---debug
+|       |   |               classpath-entries.bin
+|       |   |               ap-classpath-entries.bin
+|       |   |               classpath-structure.bin
+|       |   |               java-cache.bin
+|       |   |               apt-cache.bin
+|       |   |               
+|       |   \---kotlin-classes
+|       |       \---debug
+|       \---snapshot
+|           \---kotlin
++---.gradle
+|   |   config.properties
+|   |   
+|   +---8.13
+|   |   |   gc.properties
+|   |   |   
+|   |   +---fileHashes
+|   |   |       fileHashes.lock
+|   |   |       fileHashes.bin
+|   |   |       resourceHashesCache.bin
+|   |   |       
+|   |   +---fileChanges
+|   |   |       last-build.bin
+|   |   |       
+|   |   +---checksums
+|   |   |       checksums.lock
+|   |   |       sha1-checksums.bin
+|   |   |       md5-checksums.bin
+|   |   |       
+|   |   +---expanded
+|   |   +---vcsMetadata
+|   |   \---executionHistory
+|   |           executionHistory.lock
+|   |           executionHistory.bin
+|   |           
+|   +---buildOutputCleanup
+|   |       buildOutputCleanup.lock
+|   |       cache.properties
+|   |       outputFiles.bin
+|   |       
+|   +---vcs-1
+|   |       gc.properties
+|   |       
+|   \---kotlin
+|       +---errors
+|       \---sessions
++---build
+|   \---reports
+|       \---problems
+|               problems-report.html
+|               
+\---.kotlin
+    \---sessions

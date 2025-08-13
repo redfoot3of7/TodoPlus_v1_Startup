@@ -1,0 +1,9 @@
+<!-- strings.xml — 2025-08-12 02:00 PDT -->
+<resources>
+    <string name="app_name">Todo+</string>
+    <string name="biometric_available">Biometric authentication available</string>
+    <string name="biometric_no_hardware">No biometric hardware detected</string>
+    <string name="biometric_hw_unavailable">Biometric hardware currently unavailable</string>
+    <string name="biometric_none_enrolled">No biometric credentials enrolled</string>
+    <string name="biometric_unknown">Unknown biometric status</string>
+</resources>
