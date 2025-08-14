@@ -1,4 +1,5 @@
 // AppScaffold.kt — 2025-08-12 00:25 PDT
+
 package com.drware.todoplus.v1.startup.ui
 
 import androidx.compose.foundation.layout.padding
@@ -21,7 +22,7 @@ fun AppScaffold() {
     ) { innerPadding ->
         TodoMainScreen(
             modifier = Modifier.padding(innerPadding),
-            viewModel = todoViewModel
+            viewModel = todoViewModel // ✅ matches TodoApp.kt
         )
     }
 }

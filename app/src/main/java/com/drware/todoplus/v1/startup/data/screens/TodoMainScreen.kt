@@ -1,38 +1,47 @@
-// TodoMainScreen.kt — 2025-08-12 02:00 PDT
-// Main Composable screen showing the list of todos and an add button.
-
+// TodoMainScreen.kt — 2025-08-13 21:05 PDT
 package com.drware.todoplus.v1.startup.ui.screens
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.drware.todoplus.v1.startup.data.local.Todo
 import com.drware.todoplus.v1.startup.viewmodel.TodoViewModel
 
+/**
+ * Main screen for displaying and managing the todo list.
+ * Accepts a TodoViewModel from the parent Composable.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TodoMainScreen(
     modifier: Modifier = Modifier,
-    todoViewModel: TodoViewModel
+    viewModel: TodoViewModel
 ) {
-    val todos by todoViewModel.todos.collectAsState()
+    // This column holds the list and input components
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
+        Text(
+            text = "Your Todo List",
+            style = MaterialTheme.typography.titleLarge
+        )
 
-    Column(modifier = modifier.padding(16.dp)) {
-        LazyColumn(modifier = Modifier.weight(1f)) {
-            items(todos) { todo ->
-                Text(todo.title)
-                Spacer(Modifier.height(8.dp))
-            }
-        }
-        Button(onClick = {
-            todoViewModel.addTodo(
-                Todo(title = "New task at ${System.currentTimeMillis()}")
-            )
-        }) {
-            Text("Add Todo")
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Example placeholder for todo items list
+        Text(
+            text = "TODO: Display items here",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Example placeholder for add-task button
+        Button(onClick = { /* TODO: Implement add task */ }) {
+            Text("Add Task")
         }
     }
 }

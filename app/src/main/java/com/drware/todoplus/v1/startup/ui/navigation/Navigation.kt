@@ -1,4 +1,3 @@
-// Navigation.kt — 2025-08-09
 package com.drware.todoplus.v1.startup.ui.navigation
 
 import androidx.compose.runtime.Composable
@@ -15,7 +14,9 @@ fun AppNavigation(navController: NavHostController, todoViewModel: TodoViewModel
         startDestination = "main"
     ) {
         composable("main") {
-            TodoMainScreen(todoViewModel)
+            TodoMainScreen(
+                viewModel = todoViewModel
+            )
         }
     }
 }

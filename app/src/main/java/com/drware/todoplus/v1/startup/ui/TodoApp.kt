@@ -1,6 +1,3 @@
-// TodoApp.kt — 2025-08-12 02:00 PDT
-// Root composable for the Todo application wiring ViewModel and theme.
-
 package com.drware.todoplus.v1.startup.ui
 
 import android.app.Application
@@ -18,7 +15,9 @@ fun TodoApp(application: Application) {
 
     TodoPlusTheme {
         Surface {
-            TodoMainScreen(todoViewModel = todoViewModel)
+            TodoMainScreen(
+                viewModel = todoViewModel
+            )
         }
     }
 }
