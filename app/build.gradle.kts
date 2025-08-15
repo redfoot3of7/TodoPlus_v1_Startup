@@ -1,31 +1,33 @@
-// app/build.gradle.kts — 2025-08-12 01:20 PDT
-// App module Gradle file: Material3 + Compose + Room + Navigation + Serialization + Biometric
+// [2025-08-15 17:34] app/build.gradle.kts - Kotlin DSL version
 
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.kapt") // For Room annotation processing
-    id("org.jetbrains.kotlin.plugin.serialization") // For Kotlin Serialization support
+    id("org.jetbrains.kotlin.kapt")
 }
 
 android {
     namespace = "com.drware.todoplus.v1.startup"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.drware.todoplus.v1.startup"
-        minSdk = 24
-        targetSdk = 35
+        minSdk = 26
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildFeatures {
-        compose = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.15"
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
     }
 
     compileOptions {
@@ -36,39 +38,41 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.3"
+    }
 }
 
 dependencies {
-    // Compose BOM for version alignment
-    implementation(platform("androidx.compose:compose-bom:2025.07.00"))
+    // Kotlin + Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
-    // Core Compose libraries
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.foundation:foundation")
-    implementation("androidx.compose.material3:material3")
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    debugImplementation("androidx.compose.ui:ui-tooling")
+    // Jetpack Compose
+    implementation("androidx.compose.ui:ui:1.5.3")
+    implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.3")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.5.3")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:1.5.3")
 
-    // Lifecycle ViewModel integration for Compose
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation("androidx.activity:activity-compose:1.8.2")
 
-    // Navigation Compose
-    implementation("androidx.navigation:navigation-compose:2.7.2")
-
-    // Kotlin Serialization JSON
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
-
-    // Activity Compose support
-    implementation("androidx.activity:activity-compose:1.9.0")
-
-    // Material Design Components (classic XML views)
-    implementation("com.google.android.material:material:1.12.0")
-
-    // Room database dependencies
+    // Room (2.6.1 - stable)
     implementation("androidx.room:room-runtime:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
 
-    // AndroidX Biometric library
-    implementation("androidx.biometric:biometric-ktx:1.4.0-alpha02")
+    // Testing
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.5.3")
 }
+
+// EOF

@@ -1,11 +1,10 @@
-// build.gradle.kts — 2025-08-12 01:20 PDT
-// Root Gradle file: Kotlin plugin versions and others
+// [2025-08-15 17:34] Root build.gradle.kts - Kotlin DSL version
 
 plugins {
-    id("com.android.application") version "8.7.0" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.25" apply false
-    id("org.jetbrains.kotlin.kapt") version "1.9.25" apply false
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.25" apply false
+    id("com.android.application") version "8.2.2" apply false
+    id("com.android.library") version "8.2.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    id("org.jetbrains.kotlin.kapt") version "1.9.10" apply false
 }
 
 // EOF

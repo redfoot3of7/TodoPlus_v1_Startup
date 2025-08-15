@@ -1,23 +1,22 @@
-// settings.gradle.kts — 2025-08-10 21:40 PDT
-// Settings file including pluginManagement and dependencyResolutionManagement blocks
-
-rootProject.name = "TodoPlus_v1_Startup"
+// [2025-08-15 17:34] settings.gradle.kts - Kotlin DSL version
 
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
     }
 }
 
+rootProject.name = "TodoPlus_v1_Startup"
 include(":app")
 
 // EOF
